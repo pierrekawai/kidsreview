@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="#08101e"/>
+  <radialGradient id="bg" cx="50%" cy="40%">
+    <stop offset="0%" stop-color="#378ADD" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#08101e" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+
+  <!-- Antennes -->
+  <line x1="72" y1="42" x2="60" y2="20" stroke="#378ADD" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="59" cy="17" r="7" fill="#FAC775" stroke="#EF9F27" stroke-width="2"/>
+  <line x1="120" y1="42" x2="132" y2="20" stroke="#378ADD" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="133" cy="17" r="7" fill="#FAC775" stroke="#EF9F27" stroke-width="2"/>
+
+  <!-- Casque arrière -->
+  <circle cx="96" cy="82" r="56" fill="#0a2d6e"/>
+
+  <!-- Hublot -->
+  <circle cx="96" cy="82" r="48" fill="#B5D4F4" stroke="#378ADD" stroke-width="3"/>
+
+  <!-- Reflet -->
+  <radialGradient id="vg" cx="40%" cy="36%" r="55%">
+    <stop offset="0%" stop-color="white" stop-opacity="0.20"/>
+    <stop offset="100%" stop-color="#B5D4F4" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="96" cy="82" r="48" fill="url(#vg)"/>
+
+  <!-- Yeux -->
+  <ellipse cx="74" cy="74" rx="14" ry="17" fill="white" stroke="#378ADD" stroke-width="1.5"/>
+  <ellipse cx="118" cy="74" rx="14" ry="17" fill="white" stroke="#378ADD" stroke-width="1.5"/>
+  <circle cx="74" cy="76" r="10" fill="#0a2d6e"/>
+  <circle cx="118" cy="76" r="10" fill="#0a2d6e"/>
+  <circle cx="74" cy="76" r="5" fill="#00d4ff"/>
+  <circle cx="118" cy="76" r="5" fill="#00d4ff"/>
+  <circle cx="77" cy="72" r="3" fill="white" opacity="0.9"/>
+  <circle cx="121" cy="72" r="3" fill="white" opacity="0.9"/>
+
+  <!-- Sourire -->
+  <path d="M74 97 Q96 112 118 97" fill="none" stroke="#0a2d6e" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Joues -->
+  <ellipse cx="57" cy="94" rx="11" ry="7" fill="#FAC775" opacity="0.55"/>
+  <ellipse cx="135" cy="94" rx="11" ry="7" fill="#FAC775" opacity="0.55"/>
+
+  <!-- Bord casque -->
+  <rect x="50" y="120" width="92" height="14" rx="7" fill="#0a2d6e" stroke="#378ADD" stroke-width="1.5"/>
+
+  <!-- Corps -->
+  <rect x="56" y="136" width="80" height="42" rx="14" fill="#1a6fc4" stroke="#378ADD" stroke-width="1.5"/>
+
+  <!-- Étoile -->
+  <polygon points="96,141 99,150 108,150 101,155 104,164 96,159 88,164 91,155 84,150 93,150" fill="#FAC775"/>
+
+  <!-- Texte -->
+  <text x="96" y="188" text-anchor="middle" font-family="Arial Black, sans-serif"
+        font-size="14" font-weight="900" letter-spacing="1" fill="#00d4ff" opacity="0.9">
+    KIDSREVIEW
+  </text>
+</svg>

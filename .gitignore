@@ -1,0 +1,20 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archives et backups
+*.zip
+*.tar.gz
+old/
+
+# Fichiers de travail non publiables
+feedback*.md
+RoboLearn*.html
+index.html
